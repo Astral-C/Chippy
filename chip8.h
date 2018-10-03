@@ -250,10 +250,10 @@ public:
 				switch(opcode & 0x00FF){
 					case 0x009E:
 						if (keys[v[x]] != 0){
-							pc += 2;
+							pc += 4;
 						}
 						else{
-							pc += 4;
+							pc += 2;
 						}
 					break;
 					case 0x00A1:
